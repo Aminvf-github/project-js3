@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var numbers =[1000,876,451,673,974,298,651,490,152,199,1672,528];
+       var largest = 1000
+            var smallest = 1000
+            numbers.forEach (function (number) {
+                if (number > largest){
+                    largest = number;
+                }
+                if (number < smallest) {
+                    smallest = number;
+                }
+            });
+       console.log(`the smallest number:${smallest} and the largest number is${largest}`);
+
+    </script>
+    
+</body>
+</html>
